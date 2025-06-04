@@ -3,6 +3,8 @@
 
 Download the raw models under this folder or customize your own model path.
 
+Create the "*data/stats*" folder.
+
 ## Example
 You can use edit.py for certain examples of TOP editing.
 ```bash
