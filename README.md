@@ -12,7 +12,7 @@ pip install -r requirements.txt
 ```
 
 ## Run
-You can use edit.py for certain examples of TOP editing.
+Run edit.py for certain examples of TOP editing.
 ```bash
 python edit.py --alg-name TOPKE --model Qwen2.5-7B-Instruct
 ```
