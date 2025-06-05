@@ -1,16 +1,24 @@
-# The code for the TOP editing
+# TOP
+The code for [Unveiling and Eliminating the Shortcut Learning for Locate-Then-Edit Knowledge Editing via Both Subject and Relation Awareness](https://arxiv.org/abs/2506.04042).
 ## Set up
 
-Download the raw models under this folder or customize your own model path.
+- Download the raw models under this folder or customize your own model path.
 
-Create the "*data/stats*" folder.
+- Create the "*data/stats*" folder.
 
-## Example
+- Environment
+```bash
+pip install -r requirements.txt
+```
+
+## Run
 You can use edit.py for certain examples of TOP editing.
 ```bash
 python edit.py --alg-name TOPKE --model Qwen2.5-7B-Instruct
 ```
 For evaluation, see tutorial under the *evaluation* folder.
+
+## Acknowledgement
 
 Our code is based on [ROME](https://github.com/kmeng01/rome) and [MEMIT](https://github.com/kmeng01/memit).
 
